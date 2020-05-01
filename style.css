@@ -1,0 +1,32 @@
+body{
+	font-family: 'Raleway', sans-serif;
+	
+}
+
+.imagem-carrossel{
+	object-fit: cover;
+	object-position: 0 80%;
+    height: 450px;
+
+}
+
+.botao{
+	background-color: #f0710a;
+	color: white;
+}
+.borda{
+	border-color: #f0710a;
+	
+}
+
+article{
+	width: 18rem;
+	
+}
+
+.cards{
+	object-fit: cover;
+}
+form{
+	padding: 15px: 
+}

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>E-commerce TechTudo</title>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  	   		<a class="navbar-brand" href="#">TechTudo</a>
+ 			    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="	navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+   					<span class="navbar-toggler-icon"></span>
+ 	 		  	</button>
+  					<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+   						<ul class="navbar-nav">
+      						<li class="nav-item active">
+      	  					<a class="nav-link" href="#">Home<span class="sr-only">(Página atual)</span></a>
+      					 	</li>
+    						 	<li class="nav-item">
+       							<a class="nav-link" href="#">Destaques</a>
+      						</li>
+      						<li class="nav-item">
+       							<a class="nav-link" href="#">Preços</a>
+     						  </li>
+     							<li class="nav-item">
+        					  <a class="nav-link" href="#">Contato</a>
+     						 	</li>
+    				 </ul>
+  			   </div>
+		</nav>
+	</header>
+
+    <main>
+    	     <section id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+     		       <ol class="carousel-indicators">
+        		      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        		      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        		      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        	     </ol>
+      			<div class="carousel-inner">
+          			<div class="carousel-item active">
+           	 			<img class="d-block w-100 imagem-carrossel" src="itens.jpg" alt="Primeiro Slide">
+          			</div>
+          			<div class="carousel-item">
+            			<img class="d-block w-100 imagem-carrossel" src="itenstec.jpg" alt="Segundo Slide">
+          			</div>
+          			<div class="carousel-item">
+            			<img class="d-block w-100 imagem-carrossel" src="produtos.jpeg" alt="Terceiro Slide">
+          			</div>
+        		</div>
+
+        		<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+         			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        		 	<span class="sr-only">Anterior</span>
+        		</a>
+        		<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+         			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+         			<span class="sr-only">Próximo</span>
+        		</a>
+          </section>
+    	 
+      
+      <section id="titulo">
+      	   <h2 class="text-center pt-5">Confire nossos Produtos</h2>
+      	   <p class="text-center pb-5 ">Promoções válidas até 05/05/2020</p>
+      </section>
+
+      <section class="container" id="produtos mx-auto">
+        <div class="row">
+             <article class="card borda col-sm-3 m-4">
+                <img class="card-img-top cards" src="relogio.jpg" alt="Imagem de capa do card">
+                   <div class="card-body">
+                     <h5 class="card-title">´Relógio Tecnológico</h5>
+                       <p class="card-text">Relógio Tecnológico xiaomi Aprova d'água por R$400,00.</p>
+                        <a href="#" class="btn botao mx-auto">Comprar</a>
+                   </div>
+            </article>
+
+
+            <article class="card borda col-sm-3 m-4 ">
+                <img class="card-img-top cards" src="airpods.jpg" alt="Imagem de capa do card">
+                   <div class="card-body">
+                     <h5 class="card-title">Airpods</h5>
+                       <p class="card-text">Airpods Apple (fone bluetooth) por R$200,00.</p>
+                        <a href="#" class="btn botao mx-auto">Comprar</a>
+                   </div>
+            </article>
+
+            <article class="card borda col-sm-3 m-4 ">
+                <img class="card-img-top cards" src="celular.jpg" alt="Imagem de capa do card">
+                   <div class="card-body">
+                     <h5 class="card-title">Celular Xiaomi</h5>
+                       <p class="card-text">Celular Xiaomi 64GB por R$1.500,00.</p>
+                        <a href="#" class=" btn botao mx-auto">Comprar</a>
+                   </div>
+            </article>
+         </div>   
+      </section>
+
+      <h3 class="text-center pb-5">Cadastre-se</h3>
+
+       <form>
+      <div class="form-group row p-3">
+            <label for="nome" class="col-sm-1 col-form-label">Nome</label>
+              <div class="col-sm-4">
+                <input type="text" class="form-control" id="nome" placeholder="Nome">
+              </div>
+          </div>
+       <div class="form-group row p-3">
+            <label for="endereço" class="col-sm-1 col-form-label">Endereço</label>
+              <div class="col-sm-4">
+                <input type="text" class="form-control" id="endereço" placeholder="endereço">
+              </div>
+          </div>
+       <div class="form-group row p-3">
+            <label for="cpf" class="col-sm-1 col-form-label">CPF</label>
+              <div class="col-sm-4">
+                <input type="text" class="form-control" id="cpf" placeholder="CPF">
+              </div>
+          </div>
+          <div class="form-group row p-3">
+            <label for="inputEmail3" class="col-sm-1 col-form-label">Email</label>
+              <div class="col-sm-4">
+                <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+              </div>
+          </div>
+              <div class="form-group row p-3">
+                <label for="inputPassword3" class="col-sm-1 col-form-label">Senha</label>
+                  <div class="col-sm-4">
+                    <input type="password" class="form-control" id="inputPassword3" placeholder="Senha">
+                  </div>
+              </div>
+              <fieldset class="form-group p-3">
+                <div class="row">
+                    <legend class="col-form-label col-sm-2 pt-0">Sexo</legend>
+                      <div class="col-sm-2">
+                          <div class="form-check">
+                             <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="opcao1" checked>
+                             <label class="form-check-label" for="gridRadios1">
+                                Masculino
+                             </label>
+                          </div>
+
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="opcao2">
+                            <label class="form-check-label" for="gridRadios2">
+                              Feminino
+                            </label>
+                          </div>  
+
+                      </div>
+                </div>
+                 <div class="form-row align-items-center p-3">
+                  <legend class="col-sm-1 col-form-label">Cidade</legend> 
+                  <div class="form-group"> 
+                    <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect"></label>
+                      <select class="custom-select col-mr-2" id="inlineFormCustomSelect">
+                        <option selected>Brasil</option>
+                        <option value="1">Bahia</option>
+                        <option value="2">Rio de janeiro</option>
+                        <option value="3">Minas Gerais</option>
+                        <option value="4">Espirito Santo</option>
+                        <option value="5">Goias</option>
+                      </select>
+                  </div>    
+                </div>
+                  <div class="form-group row pb-3 p-5">
+                    <div class="col-sm-4">
+                      <button type="submit" class="btn btn-primary">Entrar</button>
+                    </div>
+                  </div>
+                </div>  
+             </fieldset>
+       </form>
+  </main>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<script src=""></script>
+</body>
+</html>
